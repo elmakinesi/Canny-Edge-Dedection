@@ -15,10 +15,6 @@ function CannyEdgeDetector()
     %% 1. Step - Smooth with Gaussian 5x5 filter to reduce noise%%
    
     %Ýlk olarak Low pass Filter uyguluyoruz.
-    %Low pass filter, düþük frekanslara izin veren ve daha yüksek frekanslarý engelleyen bir filtredir.
-    %Bir görüntüde frekans, piksel deðerlerinin deðiþim hýzýný ifade eder.
-    %Bu yüzden keskin kenarlarýn (sharped edges), yüksek frekanslý içerik olacaðýný söyleyebiliriz 
-    %çünkü piksel deðerleri o bölgede hýzla deðiþir.
     %Resimlerdeki gürütüleri azaltýp cisim kenalarýný daha temiz bir
     %þekilde bulmamýza yarayacak.
     
